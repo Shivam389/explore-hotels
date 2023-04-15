@@ -8,6 +8,9 @@ import Login from './components/Login';
 
 function App() {
   const [isLoggedIn, setIsLoggedIn]=useState(false); 
+  const [username, setUsername]=useState("");
+  const [password, setPassword]=useState("");
+
   const [welcomeDiv, setWelcomeDiv]=useState(true);
   const [hotelDiv, setHotelDiv]=useState(false);
   const [userDiv, setUserDiv]=useState(false);
@@ -57,19 +60,31 @@ function App() {
           </div>
         </div>
       </header>
-      {loginClicked? <Login 
-          setIsLoggedIn={setIsLoggedIn} 
-          setLoginClicked={setLoginClicked}
-          users={data.users}/>
-          :null}
+      {loginClicked? 
+        <Login 
+            setIsLoggedIn={setIsLoggedIn} 
+            setLoginClicked={setLoginClicked}
+            users={data.users}
+            userpass={{username, password}}
+            setUsername={setUsername}
+            setPassword={setPassword}
+        />
+      :null}
       <div className={welcomeDiv?"show":"hide"}>
         <Welcome showHotels={showHotels}/>
       </div>
       <div className={hotelDiv?"show":"hide"}>
-        <DisplayHotels />
+        <DisplayHotels 
+          hotels={data.hotels}
+          users={data.users}
+          userpass={{username, password}}
+          isLoggedIn={isLoggedIn}/>
       </div>
       <div className={userDiv?"show":"hide"}>
-        <DisplayUser />
+        <DisplayUser 
+          user={data.users.filter(p => p.username === String(username))[0]}
+          isLoggedIn={isLoggedIn}
+        />
       </div>
     </div>
   );

@@ -1,3 +1,16 @@
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #f1f1f100;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #a0f1ff41;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #94fbff36;
+  }
+
 .App{
     --hovercolor:#70ffc8cf;
     --welcome-color:rgb(255, 228, 196);
@@ -17,7 +30,7 @@
         justify-content: space-between;
         align-items: center;
         width: 100%;
-        height:11vh;
+        height:10vh;
         background-color: rgba(47, 192, 197, 0.237);
         z-index: 100;
         .logo{
@@ -73,12 +86,13 @@
         min-height: 100vh;
         background-image: 
         linear-gradient(
-        rgba(0, 0, 0, 0.2),
-        rgba(0, 0, 0, 0.5)
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.3)
         ),
         url(images/background.jpg);
         background-repeat: no-repeat;
         background-size: cover;
+        background-attachment: fixed;
         .welcome-text{
             margin-right: 20px;
             display: flex;
@@ -108,22 +122,196 @@
             }
         }
     }
-    .displayHotels{
-        width:100%;
+    .hotelWindow{
+        width: 100vw;
+        min-height:100vh;
+        .booking-cover{
+            position:fixed;
+            top:0;
+            left:0;
+            width:100vw;
+            height:100vh;
+            background-color: rgba(255, 255, 255, 0);
+            backdrop-filter: blur(8px);
+            z-index: 500;
+            .booking-div{
+                position:fixed;
+                top:50%;
+                left:50%;
+                transform: translate(-50%,-50%);
+                min-width: 60vw;
+                height: auto;
+                background-image: linear-gradient(180deg,rgb(5, 167, 167),rgb(66, 255, 192));
+                border-radius: 10px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                button{
+                    padding:10px;
+                    font-weight: 600;
+                    border:none;
+                    align-self: flex-end;
+                    cursor: pointer;
+                    margin: 10px;
+                    border-radius: 10px;
+                }
+                label{
+                    padding: 10px;
+                }
+            }
+        }
+        .displayHotels{
+            width:100%;
+            min-height: 100vh;
+            background-image: 
+            linear-gradient(
+            rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.3)
+            ),
+            url(images/background2.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            color:var(--welcome-color);
+            .hotels{
+                top:10vh;
+                left:0;
+                position: fixed;
+                height: 90vh;
+                width: 65%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                overflow-y: scroll;
+                .hotel-view{
+                    margin:20px 0;
+                    min-height: 25vh;
+                    width: 90%;
+                    background-color: #a0f1ff41;
+                    border-radius: 10px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    img{
+                        max-height: 90%;
+                        width: 30%;
+                        border-radius: 10px;
+                        margin:0 15px;
+                    }
+                    .hotel-detail{
+                        width:70%;
+                        height:100%;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: flex-start;
+                        justify-content: space-evenly;
+                        h3{
+                            margin:2px 10px;
+                        }
+                        h5{
+                            margin:2px 10px;
+                        }
+                    }
+                }.hotel-view:hover{
+                    background-color: #24809150;
+                    border:1px solid var(--hovercolor)
+                }
+            }
+            .hotel-overview{
+                position: fixed;
+                top: 10vh;
+                right: 0;
+                height:90vh;
+                width:35%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                .display{
+                    height: 90%;
+                    width: 90%;
+                    background-color: #a0f1ff41;
+                    border-radius: 10px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-evenly;
+                    align-items: center;
+                    .img-box{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                        img{
+                            width: 70%;
+                            height: auto;
+                            margin:10px 0;
+                            border-radius: 10px;
+                        }
+                    }
+                    div{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                        margin-left: 10px;
+                        text-align: center;
+                    }
+                    h2{
+                        margin:0;
+                        margin-bottom: 5px;
+                    }
+                    p,h3{
+                        margin:0;
+                    }
+                    a{
+                        text-decoration: none;
+                        color:var(--welcome-color);
+                        cursor: pointer;
+                    }
+                    button{
+                        color:var(--welcome-color);
+                        background:none;
+                        padding:5px;
+                        cursor: pointer;
+                    }button:hover{
+                        color:var(--hovercolor);
+                        border-color: var(--hovercolor);
+                        
+                    }
+                }
+            }
+        }
+    }
+    .displayUser{
+        width:100vw;
         min-height: 100vh;
         background-image: 
         linear-gradient(
-        rgba(0, 0, 0, 0.2),
-        rgba(0, 0, 0, 0.5)
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.3)
         ),
-        url(images/background2.jpg);
+        url(images/background3.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-    }
-    .displayUser{
-        width:100%;
-        min-height: 100vh;
-        background-color: rgb(255, 0, 0);
+        background-attachment: fixed;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        color:var(--welcome-color);
+        .content{
+            height: 90vh;
+            width:100%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-start;
+            overflow-y: scroll;
+            margin-top: 10vh;
+            h3,li,h2,p{
+                margin-left:10vw;
+            }
+        }
     }
     .loginCover{
         position:fixed;

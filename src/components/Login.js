@@ -3,16 +3,15 @@ import {React, useState, useEffect} from "react";
 function Login(props) {
     const [login,setLogin]=useState(false);
     const [cancel,setCancel]=useState(false);
-    const [username, setUsername]=useState("");
-    const [password, setPassword]=useState("");
+    
 
     const handleCancel=()=>{
         setCancel(true);
     }
     const handleLogin=(e)=>{
         e.preventDefault();
-        if (props.users.filter(p => p.username === String(username)).length > 0) {
-            if(props.users.filter(p => p.username === String(username))[0].password===password){
+        if (props.users.filter(p => p.username === String(props.userpass.username)).length > 0) {
+            if(props.users.filter(p => p.username === String(props.userpass.username))[0].password===props.userpass.password){
                 setLogin(true);
             }else{
                 alert("Invalid Password");
@@ -22,11 +21,11 @@ function Login(props) {
         }
     }
     const handleUsername=(e)=>{
-        setUsername(e.target.value);
+        props.setUsername(e.target.value);
    
     }
     const handlePassword=(e)=>{
-        setPassword(e.target.value);
+        props.setPassword(e.target.value);
     }
 
     useEffect(() => {
@@ -60,4 +59,3 @@ function Login(props) {
   }
   
   export default Login;
-  

@@ -4,8 +4,8 @@
     "password":"1234567890",
     "bookings":[
       {
-        "conf":"",
-        "draft":""
+        "conf":[],
+        "draft":[]
       }
     ]
   },
@@ -14,8 +14,8 @@
     "password":"1234567891",
     "bookings":[
       {
-        "conf":"",
-        "draft":""
+        "conf":[],
+        "draft":[]
       }
     ]
   },
@@ -24,8 +24,8 @@
     "password":"1234567892",
     "bookings":[
       {
-        "conf":"",
-        "draft":""
+        "conf":[],
+        "draft":[]
       }
     ]
   },
@@ -34,8 +34,8 @@
     "password":"1234567893",
     "bookings":[
       {
-        "conf":"",
-        "draft":""
+        "conf":[],
+        "draft":[]
       }
     ]
   },
@@ -44,8 +44,8 @@
     "password":"1234567894",
     "bookings":[
       {
-        "conf":"",
-        "draft":""
+        "conf":[],
+        "draft":[]
       }
     ]
   },
@@ -54,8 +54,8 @@
     "password":"1234567895",
     "bookings":[
       {
-        "conf":"",
-        "draft":""
+        "conf":[],
+        "draft":[]
       }
     ]
   },
@@ -64,8 +64,8 @@
     "password":"1234567896",
     "bookings":[
       {
-        "conf":"",
-        "draft":""
+        "conf":[],
+        "draft":[]
       }
     ]
   },
@@ -74,8 +74,8 @@
     "password":"1234567897",
     "bookings":[
       {
-        "conf":"",
-        "draft":""
+        "conf":[],
+        "draft":[]
       }
     ]
   },
@@ -84,8 +84,8 @@
     "password":"1234567898",
     "bookings":[
       {
-        "conf":"",
-        "draft":""
+        "conf":[],
+        "draft":[]
       }
     ]
   },
@@ -94,14 +94,14 @@
     "password":"1234567899",
     "bookings":[
       {
-        "conf":"",
-        "draft":""
+        "conf":[],
+        "draft":[]
       }
     ]
   }
 ],
   "hotels":[
-  {
+  { "id":0,
     "hotel_name": "Sai Kaew Beach Resort",
     "addressline1": "8/1 Moo 4 Tumbon Phe Muang",
     "zipcode": "21160",
@@ -117,7 +117,7 @@
     "rates_currency": "USD",
     "visitors":0
   },
-  {
+  { "id":1,
     "hotel_name": "Marine Hotel",
     "addressline1": "Sutton Cross",
     "zipcode": "D13",
@@ -133,7 +133,7 @@
     "rates_currency": "USD",
     "visitors":0
   },
-  {
+  { "id":2,
     "hotel_name": "TRYP Malaga Alameda Hotel",
     "addressline1": "Avenida de la Aurora CC.Larios Centro S/N",
     "zipcode": "29002",
@@ -149,7 +149,7 @@
     "rates_currency": "USD",
     "visitors":0
   },
-  {
+  { "id":3,
     "hotel_name": "NH Iquique Hotel",
     "addressline1": "Av Costanera 3939",
     "zipcode": "1111500",
@@ -165,7 +165,7 @@
     "rates_currency": "USD",
     "visitors":0
   },
-  {
+  { "id":4,
     "hotel_name": "Kew Green Hotel Wanchai Hong Kong",
     "addressline1": "41-49 Hennessy Road",
     "zipcode": "",
@@ -181,7 +181,7 @@
     "rates_currency": "USD",
     "visitors":0
   },
-  {
+  { "id":5,
     "hotel_name": "Hotel Dann Carlton Medellin",
     "addressline1": "Cra 43A No. 7-50",
     "zipcode": "50001",
@@ -197,7 +197,7 @@
     "rates_currency": "USD",
     "visitors":0
   },
-  {
+  { "id":6,
     "hotel_name": "Grand Coloane Resort",
     "addressline1": "1918 Estrada de Hac Sa",
     "zipcode": "",
@@ -213,7 +213,7 @@
     "rates_currency": "USD",
     "visitors":0
   },
-  {
+  { "id":7,
     "hotel_name": "SKYCITY Hotel",
     "addressline1": "Corner Victoria & Federal Streets",
     "zipcode": "1010",
@@ -229,7 +229,7 @@
     "rates_currency": "USD",
     "visitors":0
   },
-  {
+  { "id":8,
     "hotel_name": "Pullman Bordeaux Lac",
     "addressline1": "Avenue Jean Gabriel Domergue",
     "zipcode": "33300",
@@ -245,7 +245,7 @@
     "rates_currency": "USD",
     "visitors":0
   },
-  {
+  { "id":9,
     "hotel_name": "Hotel Conde Luna",
     "addressline1": "Avenida Independencia, 7",
     "zipcode": "24003",
@@ -261,7 +261,7 @@
     "rates_currency": "USD",
     "visitors":0
   },
-  {
+  { "id":10,
     "hotel_name": "Park Suisse Hotel",
     "addressline1": "Via Favale 31",
     "zipcode": "16038",
@@ -277,7 +277,7 @@
     "rates_currency": "USD",
     "visitors":0
   },
-  {
+  { "id":11,
     "hotel_name": "Hotel Agua Escondida",
     "addressline1": "Guillermo Spartling, 4 Centro ",
     "zipcode": "40200",
@@ -293,7 +293,7 @@
     "rates_currency": "USD",
     "visitors":0
   },
-  {
+  { "id":12,
     "hotel_name": "Hotel Caribe Cartagena",
     "addressline1": "Carrera 1, 2-87, Bocagrande",
     "zipcode": "130001",
@@ -309,7 +309,7 @@
     "rates_currency": "USD",
     "visitors":0
   },
-  {
+  { "id":13,
     "hotel_name": "Haihua Hotel Hangzhou",
     "addressline1": "No. 298, Qing Chun Road",
     "zipcode": "310006",
@@ -325,7 +325,7 @@
     "rates_currency": "USD",
     "visitors":0
   },
-  {
+  { "id":14,
     "hotel_name": "Kobe Sannomiya Tokyu REI Hotel",
     "addressline1": "6-1-5 Kumoidori, Chuo-ku",
     "zipcode": "651-0096",
@@ -338,502 +338,6 @@
     "rates_from": 58,
     "number_of_reviews": 764,
     "rating_average": 8.5,
-    "rates_currency": "USD",
-    "visitors":0
-  },
-  {
-    "hotel_name": "Suites South Burlington",
-    "addressline1": "1712 Shelburne Rd.",
-    "zipcode": "5403",
-    "city": "So Burlington (VT)",
-    "state": "Vermont",
-    "country": "United States",
-    "star_rating": 2.5,
-    "url": "https://www.agoda.com/partners/partnersearch.aspx?hid=63",
-    "photo1": "http://pix4.agoda.net/hotelimages/63/0/50265bce9db910781a1d262b65988e77.jpg?s=312x",
-    "rates_from": 118,
-    "number_of_reviews": 12,
-    "rating_average": 8.4,
-    "rates_currency": "USD",
-    "visitors":0
-  },
-  {
-    "hotel_name": "Everbright Convention & Exhibition Centre International Hotel",
-    "addressline1": "66 Caobao Road, Xuhui district",
-    "zipcode": "",
-    "city": "Shanghai",
-    "state": "Shanghai",
-    "country": "China",
-    "star_rating": 4,
-    "url": "https://www.agoda.com/partners/partnersearch.aspx?hid=66",
-    "photo1": "http://pix5.agoda.net/hotelimages/7456302/0/fe20fe078e5b7195789ac57334dc8cba.jpg?s=312x",
-    "rates_from": 166,
-    "number_of_reviews": 211,
-    "rating_average": 6.4,
-    "rates_currency": "USD",
-    "visitors":0
-  },
-  {
-    "hotel_name": "Hilton Garden Inn Pittsburgh University Place",
-    "addressline1": "3454 Forbes Avenue",
-    "zipcode": "15213",
-    "city": "Pittsburgh (PA)",
-    "state": "Pennsylvania",
-    "country": "United States",
-    "star_rating": 3,
-    "url": "https://www.agoda.com/partners/partnersearch.aspx?hid=69",
-    "photo1": "http://pix3.agoda.net/hotelimages/69/0/45bf6f3bfdbf04196eabaacdfaae2ff4.jpg?s=312x",
-    "rates_from": 200,
-    "number_of_reviews": 16,
-    "rating_average": 8.4,
-    "rates_currency": "USD",
-    "visitors":0
-  },
-  {
-    "hotel_name": "Hotel Apogia Nice",
-    "addressline1": "26, Rue Smolett",
-    "zipcode": "6300",
-    "city": "Nice",
-    "state": "Provence-Alpes-Cote d'Azur",
-    "country": "France",
-    "star_rating": 4,
-    "url": "https://www.agoda.com/partners/partnersearch.aspx?hid=71",
-    "photo1": "http://pix4.agoda.net/hotelimages/71/71/71_15112522040038031555.jpg?s=312x",
-    "rates_from": 61,
-    "number_of_reviews": 121,
-    "rating_average": 7.6,
-    "rates_currency": "USD",
-    "visitors":0
-  },
-  {
-    "hotel_name": "Paris Las Vegas",
-    "addressline1": "3655 Las Vegas Boulevard South",
-    "zipcode": "89109",
-    "city": "Las Vegas (NV)",
-    "state": "Nevada",
-    "country": "United States",
-    "star_rating": 4,
-    "url": "https://www.agoda.com/partners/partnersearch.aspx?hid=75",
-    "photo1": "http://pix2.agoda.net/hotelimages/75/-1/450838815fb602d9fe58bba500a04a84.jpg?s=312x",
-    "rates_from": 129,
-    "number_of_reviews": 1710,
-    "rating_average": 8.1,
-    "rates_currency": "USD",
-    "visitors":0
-  },
-  {
-    "hotel_name": "Catalonia Brussels Hotel",
-    "addressline1": "Avenue du Haut-Pont, 2 Hoge Bruglaan",
-    "zipcode": "B1060",
-    "city": "Brussels",
-    "state": "Brussels-Capital",
-    "country": "Belgium",
-    "star_rating": 3,
-    "url": "https://www.agoda.com/partners/partnersearch.aspx?hid=78",
-    "photo1": "http://pix2.agoda.net/hotelimages/78/0/c0c8e0157b466534215921d295e02974.jpg?s=312x",
-    "rates_from": 80,
-    "number_of_reviews": 35,
-    "rating_average": 8.1,
-    "rates_currency": "USD",
-    "visitors":0
-  },
-  {
-    "hotel_name": "Grand Prince Hotel Shin Takanawa",
-    "addressline1": "3-13-1 Takanawa, Minato-ku",
-    "zipcode": "108-8612",
-    "city": "Tokyo",
-    "state": "Tokyo",
-    "country": "Japan",
-    "star_rating": 4,
-    "url": "https://www.agoda.com/partners/partnersearch.aspx?hid=85",
-    "photo1": "http://pix3.agoda.net/hotelimages/2293978/0/cfb97a672601c2a46da6b7643c2eeaae.jpg?s=312x",
-    "rates_from": 168,
-    "number_of_reviews": 1151,
-    "rating_average": 8.3,
-    "rates_currency": "USD",
-    "visitors":0
-  },
-  {
-    "hotel_name": "Watazen Ryokan Hotel",
-    "addressline1": "604-8113 Nakagyo-ku Yanaginobaba-dori Rokkaku-kudaru 413",
-    "zipcode": "604-8113",
-    "city": "Kyoto",
-    "state": "Kyoto",
-    "country": "Japan",
-    "star_rating": 3,
-    "url": "https://www.agoda.com/partners/partnersearch.aspx?hid=94",
-    "photo1": "http://pix2.agoda.net/hotelimages/94/94/94_15082414070034908996.jpg?s=312x",
-    "rates_from": 118,
-    "number_of_reviews": 394,
-    "rating_average": 8.8,
-    "rates_currency": "USD",
-    "visitors":0
-  },
-  {
-    "hotel_name": "Amba Hotel Charing Cross",
-    "addressline1": "The Strand",
-    "zipcode": "WC2N 5HX",
-    "city": "London",
-    "state": "London, England",
-    "country": "United Kingdom",
-    "star_rating": 4,
-    "url": "https://www.agoda.com/partners/partnersearch.aspx?hid=97",
-    "photo1": "http://pix1.agoda.net/hotelimages/5160177/0/7429a5cce6cda6860924a249d308f38b.jpg?s=312x",
-    "rates_from": 281,
-    "number_of_reviews": 425,
-    "rating_average": 8.8,
-    "rates_currency": "USD",
-    "visitors":0
-  },
-  {
-    "hotel_name": "Imperial Hotel",
-    "addressline1": "32-34 Nathan Road",
-    "zipcode": "",
-    "city": "Hong Kong",
-    "state": "Hong Kong",
-    "country": "Hong Kong",
-    "star_rating": 3,
-    "url": "https://www.agoda.com/partners/partnersearch.aspx?hid=99",
-    "photo1": "http://pix4.agoda.net/hotelimages/99/99/99_16022014110040064258.jpg?s=312x",
-    "rates_from": 237,
-    "number_of_reviews": 10678,
-    "rating_average": 7,
-    "rates_currency": "USD",
-    "visitors":0
-  },
-  {
-    "hotel_name": "Royal Hotel Sanremo",
-    "addressline1": "80 Corso Imperatrice",
-    "zipcode": "18038",
-    "city": "Sanremo",
-    "state": "",
-    "country": "Italy",
-    "star_rating": 5,
-    "url": "https://www.agoda.com/partners/partnersearch.aspx?hid=102",
-    "photo1": "http://pix5.agoda.net/hotelimages/102/102/102_16061314090043482668.jpg?s=312x",
-    "rates_from": 229,
-    "number_of_reviews": 9,
-    "rating_average": 9.4,
-    "rates_currency": "USD",
-    "visitors":0
-  },
-  {
-    "hotel_name": "The Park Hotel Visakhapatnam",
-    "addressline1": "Beach road",
-    "zipcode": "530023",
-    "city": "Visakhapatnam",
-    "state": "Andhra Pradesh",
-    "country": "India",
-    "star_rating": 5,
-    "url": "https://www.agoda.com/partners/partnersearch.aspx?hid=103",
-    "photo1": "http://pix4.agoda.net/hotelimages/103/103/103_15080418100033635932.jpg?s=312x",
-    "rates_from": 102,
-    "number_of_reviews": 163,
-    "rating_average": 7.9,
-    "rates_currency": "USD",
-    "visitors":0
-  },
-  {
-    "hotel_name": "Staybridge Suites Austin Round Rock",
-    "addressline1": "520 S IH 35 Frontage Rd",
-    "zipcode": "78681",
-    "city": "Round Rock (TX)",
-    "state": "Texas",
-    "country": "United States",
-    "star_rating": 3,
-    "url": "https://www.agoda.com/partners/partnersearch.aspx?hid=107",
-    "photo1": "http://pix3.agoda.net/hotelimages/107/0/c1376dc07dff9f64bb7db9ca3bfba3f9.jpg?s=312x",
-    "rates_from": 112,
-    "number_of_reviews": 3,
-    "rating_average": 10,
-    "rates_currency": "USD",
-    "visitors":0
-  },
-  {
-    "hotel_name": "Hotel Sunroute Nara",
-    "addressline1": "1110 Takabatake-cho",
-    "zipcode": "630-8301",
-    "city": "Nara",
-    "state": "Nara",
-    "country": "Japan",
-    "star_rating": 3,
-    "url": "https://www.agoda.com/partners/partnersearch.aspx?hid=109",
-    "photo1": "http://pix3.agoda.net/hotelimages/109/109/109_16052212090042589176.jpg?s=312x",
-    "rates_from": 85,
-    "number_of_reviews": 52,
-    "rating_average": 8.2,
-    "rates_currency": "USD",
-    "visitors":0
-  },
-  {
-    "hotel_name": "The Tower Hotel",
-    "addressline1": "St Katharine's Way",
-    "zipcode": "E1W 1LD",
-    "city": "London",
-    "state": "London, England",
-    "country": "United Kingdom",
-    "star_rating": 4,
-    "url": "https://www.agoda.com/partners/partnersearch.aspx?hid=122",
-    "photo1": "http://pix1.agoda.net/hotelimages/4879607/0/4bb2ed860ccc6835b3abad1b0950f264.jpg?s=312x",
-    "rates_from": 192,
-    "number_of_reviews": 1097,
-    "rating_average": 8.4,
-    "rates_currency": "USD",
-    "visitors":0
-  },
-  {
-    "hotel_name": "The Grand New Delhi Hotel",
-    "addressline1": "Nelson Mandela Road, Vasant Kunj, Phase II",
-    "zipcode": "110070",
-    "city": "New Delhi and NCR",
-    "state": "Delhi National Territory",
-    "country": "India",
-    "star_rating": 5,
-    "url": "https://www.agoda.com/partners/partnersearch.aspx?hid=123",
-    "photo1": "http://pix4.agoda.net/hotelimages/4888496/0/b39b15228d1633bd3a3d235c415322c8.jpg?s=312x",
-    "rates_from": 131,
-    "number_of_reviews": 309,
-    "rating_average": 7.9,
-    "rates_currency": "USD",
-    "visitors":0
-  },
-  {
-    "hotel_name": "Corinthia Hotel St. George’s Bay",
-    "addressline1": "St. George`s Bay",
-    "zipcode": "STJ 3301",
-    "city": "St. Julian's",
-    "state": "Malta",
-    "country": "Malta",
-    "star_rating": 5,
-    "url": "https://www.agoda.com/partners/partnersearch.aspx?hid=124",
-    "photo1": "http://pix1.agoda.net/hotelimages/5076456/0/38babc9d6d69991b542483a4fa8cc1d9.jpg?s=312x",
-    "rates_from": 325,
-    "number_of_reviews": 39,
-    "rating_average": 8.3,
-    "rates_currency": "USD",
-    "visitors":0
-  },
-  {
-    "hotel_name": "Gran Hotel Cervantes by Blue Sea",
-    "addressline1": "Las Mercedes s/n",
-    "zipcode": "29620",
-    "city": "Torremolinos",
-    "state": "Andalusia",
-    "country": "Spain",
-    "star_rating": 4,
-    "url": "https://www.agoda.com/partners/partnersearch.aspx?hid=127",
-    "photo1": "http://pix2.agoda.net/hotelimages/127/-1/ba01692a5648a26aa0ff11138bbe3943.jpg?s=312x",
-    "rates_from": 71,
-    "number_of_reviews": 65,
-    "rating_average": 7.6,
-    "rates_currency": "USD",
-    "visitors":0
-  },
-  {
-    "hotel_name": "Hotel Intercontinental Cali",
-    "addressline1": "Av. Colombia No. 2-72",
-    "zipcode": "760001",
-    "city": "Cali",
-    "state": "Valle del Cauca",
-    "country": "Colombia",
-    "star_rating": 4.5,
-    "url": "https://www.agoda.com/partners/partnersearch.aspx?hid=130",
-    "photo1": "http://pix2.agoda.net/hotelimages/5502207/0/a9e070b68501d7391fa920a4aa91d84b.jpg?s=312x",
-    "rates_from": 88,
-    "number_of_reviews": 4,
-    "rating_average": 8.8,
-    "rates_currency": "USD",
-    "visitors":0
-  },
-  {
-    "hotel_name": "The Oberoi Rajvilas Jaipur Hotel",
-    "addressline1": "Goner Road",
-    "zipcode": "303012",
-    "city": "Jaipur",
-    "state": "Rajasthan",
-    "country": "India",
-    "star_rating": 5,
-    "url": "https://www.agoda.com/partners/partnersearch.aspx?hid=131",
-    "photo1": "http://pix4.agoda.net/hotelimages/131/131/131_14031311160018678660.jpg?s=312x",
-    "rates_from": 620,
-    "number_of_reviews": 19,
-    "rating_average": 9.1,
-    "rates_currency": "USD",
-    "visitors":0
-  },
-  {
-    "hotel_name": "Mariel Hotel Boutique",
-    "addressline1": "General Belisario Suarez, 240 - Miraflores",
-    "zipcode": "Lima18",
-    "city": "Lima",
-    "state": "",
-    "country": "Peru",
-    "star_rating": 3,
-    "url": "https://www.agoda.com/partners/partnersearch.aspx?hid=132",
-    "photo1": "http://pix3.agoda.net/hotelimages/132/132/132_1112020202004688488.jpg?s=312x",
-    "rates_from": 80,
-    "number_of_reviews": 36,
-    "rating_average": 8,
-    "rates_currency": "USD",
-    "visitors":0
-  },
-  {
-    "hotel_name": "Hilton Hurghada Long Beach Resort",
-    "addressline1": "Sahl Hashish Red Sea",
-    "zipcode": "                    ",
-    "city": "Hurghada",
-    "state": "Al Bahr al Ahmar",
-    "country": "Egypt",
-    "star_rating": 3,
-    "url": "https://www.agoda.com/partners/partnersearch.aspx?hid=135",
-    "photo1": "http://pix4.agoda.net/hotelimages/135/135/135_16090612540046133915.jpg?s=312x",
-    "rates_from": 124,
-    "number_of_reviews": 11,
-    "rating_average": 7.8,
-    "rates_currency": "USD",
-    "visitors":0
-  },
-  {
-    "hotel_name": "Royal Hotel MUNAKATA",
-    "addressline1": "1303 Tano, Munakata-shi",
-    "zipcode": "811-3514",
-    "city": "Munakata",
-    "state": "Fukuoka",
-    "country": "Japan",
-    "star_rating": 4,
-    "url": "https://www.agoda.com/partners/partnersearch.aspx?hid=136",
-    "photo1": "http://pix4.agoda.net/hotelimages/136/-1/1cc695aed77341cbdc3297fc754a8ac2.jpg?s=312x",
-    "rates_from": 128,
-    "number_of_reviews": 44,
-    "rating_average": 7.3,
-    "rates_currency": "USD",
-    "visitors":0
-  },
-  {
-    "hotel_name": "Gioberti Hotel",
-    "addressline1": "Via Gioberti 20",
-    "zipcode": "185",
-    "city": "Rome",
-    "state": "Lazio",
-    "country": "Italy",
-    "star_rating": 4,
-    "url": "https://www.agoda.com/partners/partnersearch.aspx?hid=138",
-    "photo1": "http://pix5.agoda.net/hotelimages/138/-1/5a34a779300e997df06fee851cadda1c.jpg?s=312x",
-    "rates_from": 165,
-    "number_of_reviews": 392,
-    "rating_average": 7.9,
-    "rates_currency": "USD",
-    "visitors":0
-  },
-  {
-    "hotel_name": "Hotel Serrano",
-    "addressline1": "Marques de Villamejor, 8",
-    "zipcode": "28006",
-    "city": "Madrid",
-    "state": "Madrid",
-    "country": "Spain",
-    "star_rating": 4,
-    "url": "https://www.agoda.com/partners/partnersearch.aspx?hid=140",
-    "photo1": "http://pix4.agoda.net/hotelimages/7210716/0/bdae856e4eacb1d982c5705f5efe0a58.jpg?s=312x",
-    "rates_from": 69,
-    "number_of_reviews": 108,
-    "rating_average": 8.2,
-    "rates_currency": "USD",
-    "visitors":0
-  },
-  {
-    "hotel_name": "Sarova Whitesands Beach Resort & Spa",
-    "addressline1": "Nyali/Malindi Highway",
-    "zipcode": "801",
-    "city": "Mombasa",
-    "state": "Mombasa",
-    "country": "Kenya",
-    "star_rating": 5,
-    "url": "https://www.agoda.com/partners/partnersearch.aspx?hid=141",
-    "photo1": "http://pix1.agoda.net/hotelimages/141/-1/920bbb1725aebe9f5da472eb58d80845.jpg?s=312x",
-    "rates_from": 183,
-    "number_of_reviews": 21,
-    "rating_average": 8.3,
-    "rates_currency": "USD",
-    "visitors":0
-  },
-  {
-    "hotel_name": "Scandic Seinajoki",
-    "addressline1": "Kauppakatu 10",
-    "zipcode": "60100",
-    "city": "Seinajoki",
-    "state": "",
-    "country": "Finland",
-    "star_rating": 4,
-    "url": "https://www.agoda.com/partners/partnersearch.aspx?hid=146",
-    "photo1": "http://pix5.agoda.net/hotelimages/146/146/146_080913000100145.jpg?s=312x",
-    "rates_from": 112,
-    "number_of_reviews": 13,
-    "rating_average": 7.4,
-    "rates_currency": "USD",
-    "visitors":0
-  },
-  {
-    "hotel_name": "Van der Valk Hotel Hildesheim",
-    "addressline1": "Markt 4, GPS: Jakobistraße",
-    "zipcode": "31134",
-    "city": "Hildesheim",
-    "state": "",
-    "country": "Germany",
-    "star_rating": 4,
-    "url": "https://www.agoda.com/partners/partnersearch.aspx?hid=147",
-    "photo1": "http://pix3.agoda.net/hotelimages/147/147/147_1112051559004767099.jpg?s=312x",
-    "rates_from": 68,
-    "number_of_reviews": 21,
-    "rating_average": 8.7,
-    "rates_currency": "USD",
-    "visitors":0
-  },
-  {
-    "hotel_name": "Sheraton Grand Taipei Hotel",
-    "addressline1": "No.12, Sec. 1, Zhongxiao E. Rd",
-    "zipcode": "10049",
-    "city": "Taipei",
-    "state": "Taipei City",
-    "country": "Taiwan",
-    "star_rating": 5,
-    "url": "https://www.agoda.com/partners/partnersearch.aspx?hid=149",
-    "photo1": "http://pix5.agoda.net/hotelimages/4877178/0/e4e55d3e23ce5d7926b9e506e38bed0c.jpg?s=312x",
-    "rates_from": 220,
-    "number_of_reviews": 549,
-    "rating_average": 8.4,
-    "rates_currency": "USD",
-    "visitors":0
-  },
-  {
-    "hotel_name": "Holiday Inn Express London Greenwich",
-    "addressline1": "Bugsbys Way",
-    "zipcode": "SE10 0GD",
-    "city": "London",
-    "state": "London, England",
-    "country": "United Kingdom",
-    "star_rating": 3.5,
-    "url": "https://www.agoda.com/partners/partnersearch.aspx?hid=150",
-    "photo1": "http://pix4.agoda.net/hotelimages/5149864/0/37204a2012d78e13c33b78b5827f215d.jpg?s=312x",
-    "rates_from": 157,
-    "number_of_reviews": 87,
-    "rating_average": 7.6,
-    "rates_currency": "USD",
-    "visitors":0
-  },
-  {
-    "hotel_name": "Bulgaria Hotel",
-    "addressline1": "21 Alexandrovska Street",
-    "zipcode": "8000",
-    "city": "Burgas",
-    "state": "",
-    "country": "Bulgaria",
-    "star_rating": 4,
-    "url": "https://www.agoda.com/partners/partnersearch.aspx?hid=151",
-    "photo1": "http://pix5.agoda.net/hotelimages/4884281/0/9dc9f52df1ed422b4c52657acdb90b2e.jpg?s=312x",
-    "rates_from": 56,
-    "number_of_reviews": 21,
-    "rating_average": 7.8,
     "rates_currency": "USD",
     "visitors":0
   }
