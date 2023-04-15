@@ -7,8 +7,7 @@ function Login({setIsLoggedIn}) {
                 Sign Up
             </h2>
             <form>
-                Username: <input type="text" onChange={} />
-                Password: <input type="password" onChange={}></input>
+                
                 
             </form>
         </div>
