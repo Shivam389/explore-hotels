@@ -1,0 +1,144 @@
+.App {
+  --hovercolor:#70ffc8cf;
+  --welcome-color:rgb(255, 228, 196);
+  width: 100vw;
+  min-height: 100vh;
+}
+.App .show {
+  display: inherit;
+}
+.App .hide {
+  display: none;
+}
+.App header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 11vh;
+  background-color: rgba(47, 192, 197, 0.237);
+  z-index: 100;
+}
+.App header .logo {
+  margin-left: 10px;
+  display: flex;
+  cursor: pointer;
+  height: 10vh;
+  width: 10vh;
+  border-radius: 10px;
+  justify-content: center;
+}
+.App header .logo img {
+  width: auto;
+  height: 8vh;
+  align-self: center;
+}
+.App header .logo:hover {
+  background-color: var(--hovercolor);
+}
+.App header .buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+.App header .buttons .button {
+  padding: 10px;
+  text-align: center;
+  font-weight: 700;
+  margin-right: 10px;
+  border: 1.5px solid rgb(255, 228, 196);
+  border-radius: 10px;
+  color: rgb(255, 228, 196);
+  cursor: pointer;
+}
+.App header .buttons .button:hover {
+  color: var(--hovercolor);
+  border-color: var(--hovercolor);
+}
+.App header .buttons .userbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.App header .buttons .userbar .userlogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.App .welcome {
+  width: 100%;
+  min-height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url(images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.App .welcome .welcome-text {
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  height: 100vh;
+  font-family: "Times New Roman", Times, serif;
+  color: var(--welcome-color);
+}
+.App .welcome .welcome-text .blank {
+  min-height: 30vh;
+}
+.App .welcome .welcome-text h2 {
+  font-size: clamp(2rem, 5rem, 50px);
+  margin: 0;
+}
+.App .welcome .welcome-text h4 {
+  font-size: clamp(1.75rem, 3rem, 35px);
+  margin: 10px;
+  cursor: pointer;
+}
+.App .welcome .welcome-text h4:hover {
+  color: rgba(112, 255, 200, 0.8117647059);
+}
+.App .welcome .welcome-text p {
+  font-size: clamp(1.5rem, 1.75rem, 20px);
+  margin: 0px;
+}
+.App .displayHotels {
+  width: 100%;
+  min-height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url(images/background2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.App .displayUser {
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgb(255, 0, 0);
+}
+.App .loginCover {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0);
+  -webkit-backdrop-filter: blur(8px);
+          backdrop-filter: blur(8px);
+  z-index: 500;
+}
+.App .loginCover .loginDiv {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 40vw;
+  min-height: 80vh;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}/*# sourceMappingURL=app.css.map */
