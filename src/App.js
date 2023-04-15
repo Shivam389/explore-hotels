@@ -1,6 +1,6 @@
 import './App.css';
 import React, {useState} from 'react';
-import './hotels-users-data.json';
+import data from './hotels-users-data.json';
 import Welcome from './components/Welcome';
 import DisplayHotels from './components/DisplayHotels';
 import DisplayUser from './components/DisplayUser';
@@ -21,6 +21,7 @@ function App() {
     setWelcomeDiv(true);
     setHotelDiv(false);
     setUserDiv(false);
+    alert("Bye!!!");
   }
   const showWelcome =()=>{
     setWelcomeDiv(true);
@@ -56,7 +57,11 @@ function App() {
           </div>
         </div>
       </header>
-      {loginClicked? <Login setIsLoggedIn={setIsLoggedIn}/>:null}
+      {loginClicked? <Login 
+          setIsLoggedIn={setIsLoggedIn} 
+          setLoginClicked={setLoginClicked}
+          users={data.users}/>
+          :null}
       <div className={welcomeDiv?"show":"hide"}>
         <Welcome showHotels={showHotels}/>
       </div>

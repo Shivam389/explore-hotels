@@ -140,14 +140,47 @@
             left:50%;
             transform: translate(-50%,-50%);
             min-width: 40vw;
-            min-height: 80vh;
-            background-color: white;
+            height: auto;
+            background-image: linear-gradient(180deg,rgb(5, 167, 167),rgb(66, 255, 192));
             border-radius: 10px;
             display: flex;
             flex-direction: column;
             align-items: center;
-            .login-form{
-            
+            button{
+                padding:10px;
+                font-weight: 600;
+                border:none;
+                align-self: flex-end;
+                cursor: pointer;
+                margin: 10px;
+                border-radius: 10px;
+            }
+            h2{
+                align-self: flex-start;
+                margin-left: 4vw;
+            }
+            form{
+                margin-left: 4vw;
+                margin-bottom: 5vh;
+                display: flex;
+                align-self: flex-start;
+                flex-direction: column;
+                justify-content: center;
+                align-items: flex-start;
+                label{
+                    margin:3vh 0;
+                    input{
+                        margin-left: 10px;
+                        padding: 5px;
+                        border-radius: 5px;
+                    }
+                }
+                button{
+                    margin:3vh 0;
+                    align-self: flex-start;
+                    border:1px solid black;
+                    border-radius: 10px;
+                }
             }
         }
     }
